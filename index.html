@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VELO X1 — Corré Diferente</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,wght@0,300;0,400;0,700;1,300&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <div class="nav__logo">VELO<span>X1</span></div>
+    <ul class="nav__links">
+      <li><a href="#features">Características</a></li>
+      <li><a href="#gallery">Colores</a></li>
+      <li><a href="#testimonios">Opiniones</a></li>
+    </ul>
+    <a href="#comprar" class="nav__cta">Comprá ahora</a>
+    <button class="nav__burger" id="burger" aria-label="Menú">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero__bg-text">VELO</div>
+    <div class="hero__content">
+      <div class="hero__copy">
+        <span class="hero__label">Nueva temporada · 2025</span>
+        <h1 class="hero__title">
+          La zapatilla<br />que te hace<br /><em>volar.</em>
+        </h1>
+        <p class="hero__sub">
+          Diseñadas para los que no paran.<br />
+          Tecnología pro, precio accesible.
+        </p>
+        <div class="hero__actions">
+          <a href="#comprar" class="btn btn--primary">Comprá ahora — $89.990</a>
+          <a href="#features" class="btn btn--ghost">Ver características ↓</a>
+        </div>
+        <div class="hero__trust">
+          <div class="trust-item"><span class="trust-num">+12K</span><span class="trust-label">pares vendidos</span></div>
+          <div class="trust-divider"></div>
+          <div class="trust-item"><span class="trust-num">4.9★</span><span class="trust-label">calificación</span></div>
+          <div class="trust-divider"></div>
+          <div class="trust-item"><span class="trust-num">30 días</span><span class="trust-label">devolución gratis</span></div>
+        </div>
+      </div>
+      <div class="hero__image-wrap">
+        <div class="hero__blob"></div>
+        <img src="zapatilla.avif" alt="Zapatilla VELO X1 deportiva" class="hero__shoe" id="heroShoe" />
+        <div class="hero__badge">NUEVO</div>
+        <div class="hero__floating hero__floating--1">🔥 +200 ventas hoy</div>
+        <div class="hero__floating hero__floating--2">⚡ Envío en 24hs</div>
+      </div>
+    </div>
+    <div class="hero__scroll-hint">scroll para descubrir más ↓</div>
+  </section>
+
+  <!-- MARQUEE STRIP -->
+  <div class="marquee-strip">
+    <div class="marquee-track">
+      <span>LIVIANAS</span><span>•</span>
+      <span>ULTRA GRIP</span><span>•</span>
+      <span>AMORTIGUACIÓN PRO</span><span>•</span>
+      <span>TRANSPIRABLES</span><span>•</span>
+      <span>DURABLES</span><span>•</span>
+      <span>LIVIANAS</span><span>•</span>
+      <span>ULTRA GRIP</span><span>•</span>
+      <span>AMORTIGUACIÓN PRO</span><span>•</span>
+      <span>TRANSPIRABLES</span><span>•</span>
+      <span>DURABLES</span><span>•</span>
+      <span>LIVIANAS</span><span>•</span>
+      <span>ULTRA GRIP</span><span>•</span>
+    </div>
+  </div>
+
+  <!-- FEATURES -->
+  <section class="features" id="features">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Por qué elegirlas</span>
+        <h2 class="section-title">Ingeniería<br />para el movimiento</h2>
+      </div>
+      <div class="features__grid">
+        <div class="feature-card" data-reveal>
+          <div class="feature-card__icon">🦶</div>
+          <h3>Suela Ultra-Flex</h3>
+          <p>Agarre total en superficies húmedas y secas. Cada paso responde a tu movimiento natural.</p>
+        </div>
+        <div class="feature-card feature-card--accent" data-reveal>
+          <div class="feature-card__icon">☁️</div>
+          <h3>Espuma CloudStep™</h3>
+          <p>Tecnología de amortiguación que absorbe el impacto y te da rebote energético en cada zancada.</p>
+        </div>
+        <div class="feature-card" data-reveal>
+          <div class="feature-card__icon">💨</div>
+          <h3>Malla Aireada 360°</h3>
+          <p>Material transpirable que mantiene tus pies frescos incluso en los entrenamientos más exigentes.</p>
+        </div>
+        <div class="feature-card" data-reveal>
+          <div class="feature-card__icon">⚡</div>
+          <h3>Solo 245 gramos</h3>
+          <p>Ultraliviana sin sacrificar durabilidad. Diseño ergonómico que reduce la fatiga hasta un 40%.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRODUCT SPOTLIGHT -->
+  <section class="spotlight">
+    <div class="spotlight__left">
+      <div class="spotlight__img-wrap">
+        <img src="zapatilla.avif" alt="Detalle VELO X1" class="spotlight__img" />
+        <div class="spotlight__ring"></div>
+      </div>
+    </div>
+    <div class="spotlight__right">
+      <span class="section-tag">El detalle importa</span>
+      <h2 class="spotlight__title">Cada costura<br />tiene un propósito.</h2>
+      <p class="spotlight__text">
+        El diseño no es solo estética — es función. La VELO X1 fue desarrollada
+        junto a corredores y atletas urbanos para encontrar el equilibrio perfecto
+        entre rendimiento, comodidad y estilo.
+      </p>
+      <ul class="spotlight__list">
+        <li><span class="check">✓</span> Horma anatómica de ajuste preciso</li>
+        <li><span class="check">✓</span> Puntera reforzada anti-impacto</li>
+        <li><span class="check">✓</span> Sistema de cordón speed-lace</li>
+        <li><span class="check">✓</span> Plantilla extraíble ortopédica</li>
+        <li><span class="check">✓</span> Disponible en talles 35 al 46</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- COLORES / GALLERY -->
+  <section class="gallery" id="gallery">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Paleta 2025</span>
+        <h2 class="section-title">Tu color,<br />tu identidad.</h2>
+      </div>
+      <div class="gallery__colors">
+        <div class="color-chip active" data-color="#FF6B35" style="--c:#FF6B35">
+          <span>Fuego</span>
+        </div>
+        <div class="color-chip" data-color="#1A1A2E" style="--c:#1A1A2E">
+          <span>Noche</span>
+        </div>
+        <div class="color-chip" data-color="#E8F4F8" style="--c:#E8F4F8">
+          <span>Arctic</span>
+        </div>
+        <div class="color-chip" data-color="#2EC4B6" style="--c:#2EC4B6">
+          <span>Agua</span>
+        </div>
+        <div class="color-chip" data-color="#FFBE0B" style="--c:#FFBE0B">
+          <span>Sol</span>
+        </div>
+      </div>
+      <div class="gallery__preview">
+        <img src="zapatilla.avif" alt="VELO X1 color" id="colorPreview" />
+        <div class="gallery__tint" id="colorTint"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIOS -->
+  <section class="testimonios" id="testimonios">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Lo que dicen</span>
+        <h2 class="section-title">+12.000 pares.<br />Una sola opinión.</h2>
+      </div>
+      <div class="testimonios__grid">
+        <div class="testi-card" data-reveal>
+          <div class="testi-stars">★★★★★</div>
+          <p>"Las uso para correr en el parque y para salir. Comodísimas, no tengo ninguna queja. Las compré en naranja y son un golazo visual."</p>
+          <div class="testi-author">
+            <div class="testi-avatar">VA</div>
+            <div>
+              <strong>Valentina A.</strong>
+              <span>Rosario, Santa Fe</span>
+            </div>
+          </div>
+        </div>
+        <div class="testi-card testi-card--featured" data-reveal>
+          <div class="testi-stars">★★★★★</div>
+          <p>"Corro 10km tres veces por semana y estas zapatillas cambiaron mi rendimiento. Siento menos cansancio en las rodillas y el rebote es increíble."</p>
+          <div class="testi-author">
+            <div class="testi-avatar">MR</div>
+            <div>
+              <strong>Matías R.</strong>
+              <span>Buenos Aires, CABA</span>
+            </div>
+          </div>
+        </div>
+        <div class="testi-card" data-reveal>
+          <div class="testi-stars">★★★★★</div>
+          <p>"El envío llegó en menos de 24 horas y el packaging estaba impecable. La atención al cliente re buena. Definitivamente vuelvo a comprar."</p>
+          <div class="testi-author">
+            <div class="testi-avatar">LC</div>
+            <div>
+              <strong>Lucía C.</strong>
+              <span>Córdoba Capital</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA COMPRAR -->
+  <section class="comprar" id="comprar">
+    <div class="comprar__glow"></div>
+    <div class="container">
+      <div class="comprar__inner">
+        <div class="comprar__left">
+          <span class="section-tag">Oferta limitada</span>
+          <h2 class="comprar__title">¿Qué esperás<br />para empezar a<br /><em>correr diferente?</em></h2>
+          <p class="comprar__sub">Stock limitado. Los últimos 50 pares al precio de lanzamiento.</p>
+          <div class="urgency-bar">
+            <div class="urgency-bar__fill" id="urgencyBar"></div>
+          </div>
+          <p class="urgency-text" id="urgencyText">⏳ Quedan <strong>23 pares</strong> disponibles</p>
+        </div>
+        <div class="comprar__card">
+          <div class="comprar__price-old">$119.990</div>
+          <div class="comprar__price">$89.990</div>
+          <div class="comprar__save">Ahorrás $30.000 hoy</div>
+          <div class="size-selector">
+            <p class="size-label">Seleccioná tu talle:</p>
+            <div class="size-grid" id="sizeGrid">
+              <button class="size-btn" data-size="35">35</button>
+              <button class="size-btn" data-size="36">36</button>
+              <button class="size-btn" data-size="37">37</button>
+              <button class="size-btn" data-size="38">38</button>
+              <button class="size-btn" data-size="39">39</button>
+              <button class="size-btn" data-size="40">40</button>
+              <button class="size-btn" data-size="41">41</button>
+              <button class="size-btn" data-size="42">42</button>
+              <button class="size-btn" data-size="43">43</button>
+              <button class="size-btn" data-size="44">44</button>
+              <button class="size-btn" data-size="45">45</button>
+              <button class="size-btn" data-size="46">46</button>
+            </div>
+          </div>
+          <button class="btn btn--buy" id="buyBtn">
+            <span class="btn-text">🛒 Agregar al carrito</span>
+          </button>
+          <div class="comprar__guarantees">
+            <span>🔄 30 días de devolución</span>
+            <span>🚚 Envío gratis en CABA y GBA</span>
+            <span>🔒 Pago 100% seguro</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__brand">
+          <div class="nav__logo">VELO<span>X1</span></div>
+          <p>Zapatillas para los que se mueven.</p>
+        </div>
+        <div class="footer__links">
+          <a href="#">Términos y condiciones</a>
+          <a href="#">Política de devoluciones</a>
+          <a href="#">Contacto</a>
+          <a href="#">Instagram</a>
+        </div>
+      </div>
+      <div class="footer__copy">© 2025 VELO X1. Todos los derechos reservados.</div>
+    </div>
+  </footer>
+
+  <!-- NOTIFICATION POPUP -->
+  <div class="notif" id="notif">
+    <div class="notif__avatar">👟</div>
+    <div class="notif__text">
+      <strong>Alguien de Mendoza</strong>
+      <span>acaba de comprar talle 41</span>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
